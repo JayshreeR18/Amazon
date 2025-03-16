@@ -2,25 +2,41 @@
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
     padding: 0px;
-    color: rgb(255, 255, 255);
+    color: rgb(125, 28, 112);
 }
 
-#navbar {
-    background-color: rgb(230, 183, 183);
-    height: 40px;
-    padding-top: 20px;
+
+
+
+div{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    border: 5px solid black;
+    display: flex inline;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1 {
+    position: relative;
+    top: 30px;
+
+}
+
+
+#box2 {
+    position: absolute;
+    right: 1000px
     
-
 }
 
 
-a{
-    text-decoration: none;
-    color: black;
-}
 
-li {
-    list-style-type: none;
-    display: inline;
-    margin-right: 300px;
+#box3 {
+    position: fixed;
+    right: 20px;
+    top: 10px;
 }
