@@ -3,77 +3,27 @@
     margin: 0px;
     padding: 0px;
 }
-p {                        /* using element selector */
-    color: rgb(24, 23, 23);
-    text-align: justify;
-    line-height: 25px;
 
-}
-
-
-/* using class selector */
-
-.Google {
-    text-decoration: none;
-    color: cadetblue;
-    text-align: left;
-    background-color: black;
-}
-
-
-.Butt {
-    color: rgb(6, 249, 26);
-    text-align: center;
-    background-color: rgb(4, 13, 13);
-
-}
-
-
-/* using id selector */
-
-#One {
-    background-color: blue;
-}
-
-
-.Head {
-    text-transform: capitalize;
-    text-align: center;
-    color: deeppink;
-}
-
-
-#outer {
-    font-size: 25px;
-    text-align: center;
-
-}
-
-
-#inner {
-    font-size: 15px;
-    text-align: center;
-
-}
-
-#header {
+.maindiv {
     height: 50px;
     width: auto;
-    background-color: black;
-    display: flex;         /* Enables Flexbox */
-    justify-content: center; /* Centers content horizontally */
-    align-items: center;    /* Centers content vertically */
+    background-color: rgb(0, 0, 0);
+
 }
 
-#GFG {
-    font-size: 10px;
-    padding: 15px;
-    text-align: left;
-    font-weight: 100;       /* 'font-weight' uses values like 100, 200, etc. */
-    color: aliceblue;
+h1 {
+    color: azure;
 }
 
-img {
-    height: 40px;
-    width: 60px;
+
+.div1 {
+    background-color: dimgray;
+    border-width: 2px;
+    border-radius: 5px;;
+    height: 70px;
+    width: 70px;
+    border-style: solid;
+    border-color: darkcyan;
+    text-align: center;
+
 }
