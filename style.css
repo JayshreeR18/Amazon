@@ -2,35 +2,39 @@
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
     padding: 0px;
-    color: aliceblue;
+    color: rgb(25, 109, 181);
 }
-
-/* div {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: green;
-    text-align: center;
-} */
-
 
 #navbar {
-    height: 60px ;
     background-color: black;
-}
-
-
-button {
-    background-color: yellow;
-}
-
-#logo {
-    font-size: 25px;
-    color: orange;
+    height: 60px;
 }
 
 a {
     margin-right: 200px;
-    text-decoration: none;
+    text-decoration: none ;
+    color: rgb(255, 255, 255);
 }
 
+
+
+
+button{
+    background-color: yellow;
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    color: rgb(252, 241, 241);
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+}
