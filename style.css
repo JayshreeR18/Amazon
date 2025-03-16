@@ -1,0 +1,31 @@
+h1 {               /* using element selector */
+    color: brown;
+    text-decoration: double underline;
+}
+
+p {                        /* using element selector */
+    color: blueviolet;
+    text-align: justify;
+    line-height: 25px;
+
+}
+
+
+/* using class selector */
+
+.Google {
+    text-decoration: none;
+    color: cadetblue;
+    text-align: left;
+    background-color: black;
+}
+
+
+.Butt {
+    color: black;
+    text-align: center;
+    background-color: aqua;
+    height: 50px;
+    width: 80px;
+
+}
