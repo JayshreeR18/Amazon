@@ -1,10 +1,8 @@
-h1 {               /* using element selector */
-    color: brown;
-    text-decoration: double underline;
+*{
+    font-family: 'Times New Roman', Times, serif;
 }
-
 p {                        /* using element selector */
-    color: blueviolet;
+    color: rgb(24, 23, 23);
     text-align: justify;
     line-height: 25px;
 
@@ -22,10 +20,37 @@ p {                        /* using element selector */
 
 
 .Butt {
-    color: black;
+    color: rgb(6, 249, 26);
     text-align: center;
-    background-color: aqua;
-    height: 50px;
-    width: 80px;
+    background-color: rgb(4, 13, 13);
 
 }
+
+
+/* using id selector */
+
+#One {
+    background-color: blue;
+}
+
+
+.Head {
+    text-transform: capitalize;
+    text-align: center;
+    color: deeppink;
+}
+
+
+#outer {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+
+#inner {
+    font-size: 15px;
+    text-align: center;
+
+}
+
